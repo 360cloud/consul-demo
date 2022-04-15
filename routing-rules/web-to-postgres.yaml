@@ -1,0 +1,10 @@
+apiVersion: consul.hashicorp.com/v1alpha1
+kind: ServiceIntentions
+metadata:
+  name: web-to-db
+spec:
+  destination:
+    name: postgres
+  sources:
+    - name: web
+      action: allow

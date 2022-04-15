@@ -1,0 +1,13 @@
+global:
+  datacenter: hashidc1
+  tls:
+    enabled: true
+    enableAutoEncrypt: true
+    verify: true
+ui:
+  service:
+    type: 'LoadBalancer'
+connectInject:
+  enabled: true
+controller:
+  enabled: true

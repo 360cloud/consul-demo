@@ -1,0 +1,2 @@
+helm install consul hashicorp/consul --set global.name=consul --create-namespace --namespace consul --values values-tls.yaml
+

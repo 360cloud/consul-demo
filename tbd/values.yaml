@@ -1,0 +1,10 @@
+global:
+  datacenter: hashidc1
+
+ui:
+  service:
+    type: 'LoadBalancer'
+connectInject:
+  enabled: true
+controller:
+  enabled: true
